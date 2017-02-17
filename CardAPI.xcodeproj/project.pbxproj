@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		336E20251E5755340047CB69 /* DeckAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E20241E5755340047CB69 /* DeckAPI.swift */; };
+		336E20271E575AFD0047CB69 /* DeckAPI_FAKE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E20261E575AFD0047CB69 /* DeckAPI_FAKE.swift */; };
+		336E20291E57A6460047CB69 /* DeckAPI_Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E20281E57A6460047CB69 /* DeckAPI_Queue.swift */; };
+		336E202B1E57B2890047CB69 /* DeckAPI_NSURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336E202A1E57B2890047CB69 /* DeckAPI_NSURLSession.swift */; };
 		338BA7001E53C26400119405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BA6FF1E53C26400119405 /* AppDelegate.swift */; };
 		338BA7021E53C26400119405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BA7011E53C26400119405 /* ViewController.swift */; };
 		338BA7051E53C26400119405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338BA7031E53C26400119405 /* Main.storyboard */; };
 		338BA7071E53C26400119405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338BA7061E53C26400119405 /* Assets.xcassets */; };
 		338BA70A1E53C26400119405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338BA7081E53C26400119405 /* LaunchScreen.storyboard */; };
+		338BA7171E53C2A900119405 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BA7151E53C2A900119405 /* Deck.swift */; };
+		338BA7181E53C2A900119405 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BA7161E53C2A900119405 /* Card.swift */; };
+		338BA71B1E53C2C000119405 /* DeckInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BA7191E53C2C000119405 /* DeckInteractor.swift */; };
+		338BA71C1E53C2C000119405 /* CardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BA71A1E53C2C000119405 /* CardInteractor.swift */; };
+		338BA71F1E53C2D600119405 /* DeckAPI_GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BA71E1E53C2D600119405 /* DeckAPI_GCD.swift */; };
+		338BA7231E53C53300119405 /* ImageCardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338BA7221E53C53300119405 /* ImageCardInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		336E20241E5755340047CB69 /* DeckAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckAPI.swift; sourceTree = "<group>"; };
+		336E20261E575AFD0047CB69 /* DeckAPI_FAKE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckAPI_FAKE.swift; sourceTree = "<group>"; };
+		336E20281E57A6460047CB69 /* DeckAPI_Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckAPI_Queue.swift; sourceTree = "<group>"; };
+		336E202A1E57B2890047CB69 /* DeckAPI_NSURLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckAPI_NSURLSession.swift; sourceTree = "<group>"; };
 		338BA6FC1E53C26400119405 /* CardAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338BA6FF1E53C26400119405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		338BA7011E53C26400119405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,12 @@
 		338BA7061E53C26400119405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338BA7091E53C26400119405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338BA70B1E53C26400119405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338BA7151E53C2A900119405 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		338BA7161E53C2A900119405 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		338BA7191E53C2C000119405 /* DeckInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckInteractor.swift; sourceTree = "<group>"; };
+		338BA71A1E53C2C000119405 /* CardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInteractor.swift; sourceTree = "<group>"; };
+		338BA71E1E53C2D600119405 /* DeckAPI_GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeckAPI_GCD.swift; sourceTree = "<group>"; };
+		338BA7221E53C53300119405 /* ImageCardInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCardInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +75,63 @@
 			isa = PBXGroup;
 			children = (
 				338BA6FF1E53C26400119405 /* AppDelegate.swift */,
-				338BA7011E53C26400119405 /* ViewController.swift */,
-				338BA7031E53C26400119405 /* Main.storyboard */,
+				338BA7141E53C28400119405 /* Models */,
+				338BA7131E53C27D00119405 /* Views */,
+				338BA7121E53C27500119405 /* Controllers */,
+				338BA71D1E53C2C400119405 /* Manager */,
+				338BA7111E53C26E00119405 /* Interactors */,
 				338BA7061E53C26400119405 /* Assets.xcassets */,
-				338BA7081E53C26400119405 /* LaunchScreen.storyboard */,
 				338BA70B1E53C26400119405 /* Info.plist */,
 			);
 			path = CardAPI;
+			sourceTree = "<group>";
+		};
+		338BA7111E53C26E00119405 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				338BA7191E53C2C000119405 /* DeckInteractor.swift */,
+				338BA71A1E53C2C000119405 /* CardInteractor.swift */,
+				338BA7221E53C53300119405 /* ImageCardInteractor.swift */,
+			);
+			name = Interactors;
+			sourceTree = "<group>";
+		};
+		338BA7121E53C27500119405 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				338BA7011E53C26400119405 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		338BA7131E53C27D00119405 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				338BA7031E53C26400119405 /* Main.storyboard */,
+				338BA7081E53C26400119405 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		338BA7141E53C28400119405 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				338BA7151E53C2A900119405 /* Deck.swift */,
+				338BA7161E53C2A900119405 /* Card.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		338BA71D1E53C2C400119405 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				336E20241E5755340047CB69 /* DeckAPI.swift */,
+				338BA71E1E53C2D600119405 /* DeckAPI_GCD.swift */,
+				336E20261E575AFD0047CB69 /* DeckAPI_FAKE.swift */,
+				336E20281E57A6460047CB69 /* DeckAPI_Queue.swift */,
+				336E202A1E57B2890047CB69 /* DeckAPI_NSURLSession.swift */,
+			);
+			name = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +207,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336E20271E575AFD0047CB69 /* DeckAPI_FAKE.swift in Sources */,
+				338BA71C1E53C2C000119405 /* CardInteractor.swift in Sources */,
+				338BA7171E53C2A900119405 /* Deck.swift in Sources */,
+				338BA71F1E53C2D600119405 /* DeckAPI_GCD.swift in Sources */,
 				338BA7021E53C26400119405 /* ViewController.swift in Sources */,
+				336E20291E57A6460047CB69 /* DeckAPI_Queue.swift in Sources */,
+				336E20251E5755340047CB69 /* DeckAPI.swift in Sources */,
+				338BA7231E53C53300119405 /* ImageCardInteractor.swift in Sources */,
 				338BA7001E53C26400119405 /* AppDelegate.swift in Sources */,
+				336E202B1E57B2890047CB69 /* DeckAPI_NSURLSession.swift in Sources */,
+				338BA71B1E53C2C000119405 /* DeckInteractor.swift in Sources */,
+				338BA7181E53C2A900119405 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +382,7 @@
 				338BA7101E53C26400119405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

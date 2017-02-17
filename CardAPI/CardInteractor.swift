@@ -9,11 +9,24 @@
 import Foundation
 
 
-public func execute(deck: Deck, completion: @escaping (Card) -> Void) {
+public class CardInteractor{
     
-    DeckAPI().downloadCard(deck: deck) { (card: Card) in
-        assert(Thread.current == Thread.main)
-        completion(card)
-    }    
+    let manager: DeckAPI
     
+    public init(manager: DeckAPI){
+        self.manager = manager
+    }
+    
+    public convenience init(){
+        self.init(manager: DeckAPI_GCD())
+    }
+    
+    public func execute(deck: Deck, completion: @escaping (Card) -> Void) {
+        
+        manager.downloadCard(deck: deck, completion: { (card: Card) in
+            assert(Thread.current == Thread.main)
+            completion(card)
+        }, onError: nil)
+        
+    }
 }

@@ -9,9 +9,7 @@
 import Foundation
 import UIKit
 
-public typealias ErrorClosure = (Error) -> Void
-
-public class DeckAPI_GCD {
+public class DeckAPI_GCD: DeckAPI {
     
     public func downloadDeck(completion: @escaping (Deck) -> Void, onError:  ErrorClosure? = nil){
         
